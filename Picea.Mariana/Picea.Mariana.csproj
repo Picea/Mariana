@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- NuGet package metadata -->
+  <PropertyGroup>
+    <PackageId>Picea.Mariana</PackageId>
+    <Title>Picea.Mariana</Title>
+    <Description>Production-grade resilience strategies modeled as Mealy machine automata. Retry, Circuit Breaker, Timeout, Fallback, Rate Limiter, and Hedging — each with a public state machine for full observability and an ergonomic Execute API for common use. Zero-alloc fast paths, Result-based error handling, and OpenTelemetry instrumentation built in.</Description>
+    <Authors>Maurice Peters</Authors>
+    <PackageTags>resilience;retry;circuit-breaker;timeout;fallback;rate-limiter;hedging;automaton;state-machine;polly;fault-tolerance;functional;picea</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Picea/Mariana</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Picea/Mariana</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Picea" Version="1.0.*-*" />
+  </ItemGroup>
+
+</Project>

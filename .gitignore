@@ -1,0 +1,49 @@
+## .NET
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## Visual Studio
+.vs/
+*.rsuser
+*.sln.docstates
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## macOS
+.DS_Store
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+Artifacts/
+BenchmarkDotNet.Artifacts/
+nupkg/
+
+## Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
